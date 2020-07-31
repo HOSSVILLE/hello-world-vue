@@ -7,7 +7,7 @@
    <input placeholder="Type here" type="text" v-model="firstName" id="firstName">
   </div>
   <div>
-    <p> Goto <link rel="stylesheet" href="https://forms.gle/RY6oQWTT5KPvV9ba6">Overflow board </p>
+    <p> Goto <a  href="https://forms.gle/RY6oQWTT5KPvV9ba6">Overflow board </a> </p>
     </div>
   </div>
  </template>
