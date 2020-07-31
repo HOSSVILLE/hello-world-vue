@@ -1,15 +1,9 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
-import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
 const routes: Array<RouteConfig> = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
   {
     path: '/about',
     name: 'About',
@@ -19,8 +13,8 @@ const routes: Array<RouteConfig> = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/hello',
-    name: 'Hello',
+    path: '/',
+    name: 'Home',
     component: () => import(/* webpackChunkName: "about" */ '../views/Hello.vue')
   }
 ]

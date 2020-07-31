@@ -1,14 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/MULOGO.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  <div>
-   <label for="firstName">First Name: </label>
-   <input placeholder="Type here" type="text" v-model="firstName" id="firstName">
-  </div>
-  <div>
-    <p> Goto <a  href="https://forms.gle/RY6oQWTT5KPvV9ba6">Overflow board </a> </p>
-    </div>
+    <HelloWorld msg="Welcome to the Overflow Board site! "/>
   </div>
  </template>
 <script>
