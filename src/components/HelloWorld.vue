@@ -1,6 +1,7 @@
 <template>
   <div>
-   <p> Goto <a  href="https://forms.gle/RY6oQWTT5KPvV9ba6">Overflow Board Signup</a> </p>
+    <h1>{{ msg }}</h1>
+    <p> Goto <a  href="https://forms.gle/RY6oQWTT5KPvV9ba6">Overflow Board Signup</a> </p>
   </div>
 
 </template>
