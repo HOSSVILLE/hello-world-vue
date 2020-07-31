@@ -8,6 +8,7 @@
   </div>
   <div>
     <p> Goto <link rel="stylesheet" href="https://forms.gle/RY6oQWTT5KPvV9ba6">Overflow board</link> </p>
+    </div>
   </div>
  </template>
 <script>
