@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/MULOGO.png">
+    <img alt="Vue logo" src="../assets/overflow-board.jpg">
     <HelloWorld msg="Welcome to the Overflow Board site! "/>
   </div>
  </template>
