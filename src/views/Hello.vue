@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/overflow-board.jpg">
-    <HelloWorld msg="Welcome to the Overflow Board site! "/>
+    <HelloWorld msg="Welcome to the Friend and Tier site! "/>
   </div>
  </template>
 <script>
