@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>{{ msg }}</h1>
-    <p> Goto <a  href="https://forms.gle/RY6oQWTT5KPvV9ba6">Friend and Tier Signup</a> </p>
+    <p> Goto <a  href="https://forms.gle/RY6oQWTT5KPvV9ba6">Friends and Family Tier Group Signup</a> </p>
   </div>
 
 </template>
