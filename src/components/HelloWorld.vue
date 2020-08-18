@@ -51,8 +51,8 @@ a {
 #bottom{
     position:-webkit-sticky;
     bottom: 25px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
     text-align:left;
     font-size:11pt;
 }
