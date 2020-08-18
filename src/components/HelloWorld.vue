@@ -49,7 +49,7 @@ a {
 }
 
 #bottom{
-    position: absolute;
+    position:-webkit-sticky;
     bottom: 25px;
     margin-left: 25%;
     margin-right: 25%;
