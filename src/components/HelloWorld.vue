@@ -20,6 +20,7 @@
           <p> 3. New Fires are added to the boards in the community Matrix Update Chat by the administrator(s).  The Fire gives their gift to the Water when all fires spots are filled in.  The Water’s preferred methods for receiving their blessings will be provided on the gifting celebration flyer that will be posted with the closed Matrix.</p>
           <p> 4. If anyone in the Fire position breaks their commitment of blessing to the person in the water within 24 hours for reasons other than technical difficulties, that member will be removed from the group with no chance of re-entry. No exceptions are allowed.</p>
           <p> 5. Split Matrix are posted once the Water confirms that they have received all of their blessings according to the community Matrix updates schedule.</p>
+          <p> 6. There are no refunds for a gift.  This is not a payment, therefore gifts are non-refundable. </p>
           <div style="text-align:center;padding-top:10px;">
             <input id="checkbox" type="checkbox" onclick="document.getElementById('agreed').disabled = false"/>
             <label style="font-size:14pt" for="checkbox">I have read, understand and agree to the community guidelines and disclaimer</label>
