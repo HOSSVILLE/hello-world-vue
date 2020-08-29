@@ -2,10 +2,6 @@
   <div>
     <h1>{{ msg }}</h1>
     <p> Before you signup, you must acknowledge that you have reviewed our Community Guidelines</p>
-    <p> These guidelines can be found <button class="btn" >Coming Soon</button></p>
-    <!--<input id="checkbox" type="checkbox"/>
-    <label for="checkbox">I have read, understand and agree to the community guidelines</label>-->
-    <p> Goto <a  id="signup" href="https://forms.gle/RY6oQWTT5KPvV9ba6">Friends and Family Tier Group Signup</a> </p>
       <div id="bottom">
         <div>
           <p style="text-align:center"><b>DISCLAIMER</b></p>
@@ -17,6 +13,21 @@
           presented for receipt of gifts are only hypothetical and vary based on the collaborative
           efforts of the entire private community.
         </div>
+        <div>
+          <p style="text-align:center"><b>COMMUNITY GUIDELINES</b></p>
+          <p> 1. This is an economic sharing community. By opting in, you are committing to giving a gift to the person in the water within 24 hours of Matrix closure. You are committing to sharing this opportunity with TRUSTED family or friends.</p>
+          <p> 2. Potential Sparks that have interest in becoming Fires have to be invited to attend a presentation by a current member of the community.  Once a presentation is attended the Spark can make a decision to become a Fire.</p>
+          <p> 3. New Fires are added to the boards in the community Matrix Update Chat by the administrator(s).  The Fire gives their gift to the Water when all fires spots are filled in.  The Water’s preferred methods for receiving their blessings will be provided on the gifting celebration flyer that will be posted with the closed Matrix.</p>
+          <p> 4. If anyone in the Fire position breaks their commitment of blessing to the person in the water within 24 hours for reasons other than technical difficulties, that member will be removed from the group with no chance of re-entry. No exceptions are allowed.</p>
+          <p> 5. Split Matrix are posted once the Water confirms that they have received all of their blessings according to the community Matrix updates schedule.</p>
+          <div style="text-align:center;padding-top:10px;">
+            <input id="checkbox" type="checkbox" onclick="document.getElementById('agreed').disabled = false"/>
+            <label style="font-size:14pt" for="checkbox">I have read, understand and agree to the community guidelines and disclaimer</label>
+          </div>
+        </div>
+        <div style="text-align:center;padding-top:10px">
+          <input class="button" disabled=true id="agreed" type="button" value="I want to join!" onclick="window.location.href='https://forms.gle/RY6oQWTT5KPvV9ba6'"/>
+          </div>
       </div>
   </div>
 
@@ -55,6 +66,11 @@ a {
     margin-right: 15%;
     text-align:left;
     font-size:11pt;
+}
+.button {
+  width: 200px;
+  height: 50px;
+  font-size: 18pt;
 }
 
 </style>
