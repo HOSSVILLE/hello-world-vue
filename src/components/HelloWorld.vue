@@ -1,7 +1,10 @@
 <template>
   <div>
     <h1>{{ msg }}</h1>
-    <p> Before continuing please <a target="_blank" href="http://tinyurl.com/familytier">view this video</a></p>
+    <p> Before continuing please view this video</p>
+     <div align="center">
+       <iframe src="http://www.youtube.com/embed/rO8aPpEu2a8" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+    </div>
     <p> You must acknowledge that you have reviewed our Community Guidelines and Disclaimer.</p>
       <div id="bottom">
         <div>
