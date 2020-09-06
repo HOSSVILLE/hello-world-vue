@@ -1,7 +1,8 @@
 <template>
   <div>
     <h1>{{ msg }}</h1>
-    <p> Before you signup, you must acknowledge that you have reviewed our Community Guidelines</p>
+    <p> Before continuing please <a target="_blank" href="http://tinyurl.com/familytier">view this video</a></p>
+    <p> You must acknowledge that you have reviewed our Community Guidelines and Disclaimer.</p>
       <div id="bottom">
         <div>
           <p style="text-align:center"><b>DISCLAIMER</b></p>
