@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="hossville" class="hossville">
     <h1>{{ msg }}</h1>
     <p> Before continuing please view this video</p>
      <div align="center">
@@ -66,7 +66,6 @@ a {
 
 #bottom{
     position:-webkit-sticky;
-    bottom: 25px;
     margin-left: 15%;
     margin-right: 15%;
     text-align:left;
@@ -76,6 +75,10 @@ a {
   width: 200px;
   height: 50px;
   font-size: 18pt;
+}
+
+#hossville {
+  position:-webkit-sticky
 }
 
 </style>
